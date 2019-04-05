@@ -47,7 +47,8 @@ Note that you cannot upload a whole folder to DataHub, so you need to create a f
 #  ~ CONCEPTS ~
 ## Part1: ok files
 •	An ok file is a json-format config file for a Jupyter Notebook. A sample ok file looks like: <br>
-<img src="./img/p2.png" alt="drawing" width="250"/>
+<br>
+<img src="./img/p2.png" alt="drawing" width="500"/>
  <br>
 •	Explanation for the content of an ok files: <br>
 1.	“name” specifies the name of this ok file. <br>
@@ -71,7 +72,8 @@ This line will run the file named “q1” under the directory you specify in th
 ### Part 3: tests files
 •	These files are the py files under the “tests” or “correctness_tests” directory, and they are the ones you need to create/modify.<br>
 •	A sample tests file: <br>
-<img src="./img/p3.png" alt="drawing" width="250"/>
+<br>
+<img src="./img/p3.png" alt="drawing" width="300"/>
  <br>
 •	In the ‘code’ part, within the “”” pair are the tester codes you will need to write/modify. The codes after >>> are the python codes the will be run inside the jupyter notebook, when something like `_ = ok.grade(‘q1’)` is called. And the lines without >>> are the expected result of the previous line. For example, you can have something like:
 
