@@ -1,11 +1,17 @@
 # dsc10_tests_creation_guide
-A tutorial for the DSC10 tutors about how to write formatting tests or correctness tests. <br>
+This guide is for the tutors who have no experience of creating tests. It provides the methods I used to write formatting tests and correctness tests.<br>
 <br>
-<a href = 'https://github.com/ChunanGang/dsc10_tests_creation_guide#-setup-'> Setup </a> <br>
-<a href = 'https://github.com/ChunanGang/dsc10_tests_creation_guide#-concepts-'> Concept </a> <br>
-<a href = 'https://github.com/ChunanGang/dsc10_tests_creation_guide#-work-flow-'> Workflow </a> <br>
+This guide contains 3 parts:<br>
+<br>
+<a href = 'https://github.com/ChunanGang/dsc10_tests_creation_guide#-setup-'> SETUP </a> <br>
+<a href = 'https://github.com/ChunanGang/dsc10_tests_creation_guide#-concepts-'> CONCEPTS </a> <br>
+<a href = 'https://github.com/ChunanGang/dsc10_tests_creation_guide#-work-flow-'> WORKFLOW </a> <br>
+<br>
+"SETUP" provides the ways I recommend to set up your work space; "CONCEPTS" provides some basic knowledge about how the testing works; "WORKFLOW" provides the workflow for writing tests. <br>
+If you are familiar with GitHub and understand how the ok files work, you can just jump to the "WORKFLOW" part. <br>
 
-### ______________________________________________________________________________________
+<br>
+
 
 # ~ SETUP ~ 
 This part is to setup your work space. <br>
@@ -105,19 +111,19 @@ This line will run the file named “q1” under the directory you specify in th
         ok = Notebook('hw01_solution.ok')
 
 3.	Run the tests in the solution notebook to make sure they all pass.<br>
-•	Commit your change and push back to the dsc10 repo. <br>
+•	Finally, commit your change and push back to the dsc10 repo. <br>
 
 ## For correctness_tests writers:
 •	Setup the work space. <br>
 •	Create / modify the test files under the folder “correctness_tests”. <br>
 •	Check the tests you wrote are correct. To do this, you can run your tests against the solution notebook: <br>
-1.	Create an ok file for the solution notebook. It should be same as the original ok file except the ‘src’ part now becomes the solution notebook, and the ‘tests’ part now uses “correctness_test” folder. <br>
-2.	Specify in the solution notebook to use the ok file you just created. ie:
+  1.	Create an ok file for the solution notebook. It should be same as the original ok file except the ‘src’ part now becomes the solution notebook, and the ‘tests’ part now uses “correctness_test” folder. <br>
+  2.	Specify in the solution notebook to use the ok file you just created. ie:
 
-        ok = Notebook('hw01_solution.ok')
+                ok = Notebook('hw01_solution.ok')
 
-3.	Run the tests in the solution notebook to make sure the correctness_tests you wrote were correct. <br>
-•       Commit your change and push back to the dsc10 repo. <br>
+  3.	Run the tests in the solution notebook to make sure the correctness_tests you wrote were correct. <br>
+•       Finally, commit your change and push back to the dsc10 repo. <br>
 
  
 
