@@ -2,12 +2,12 @@
 A tutorial for the DSC10 tutors about how to write formatting tests or correctness tests.
 ### ______________________________________________________________________________________
 
-# SETUP 
+# ~ SETUP ~ 
 This part is to setup your work space. <br>
 Here, I don’t recommend you work on your local machine because the environment you have on your machine may be different from that of DataHub. Therefore, some testers you write may run on your local machine, but not on DataHub, which the students use. <br>
 In one ward, to avoid version problems, it is better to work on DataHub. (Or at least make sure it runs on DataHub) <br>
-#### To setup work space on DataHub, you have 2 choice. <br>
-### Choice 1 (easier):
+To setup work space on DataHub, you have 2 choice. <br>
+## Choice 1 (easier):
 #### You can open a terminal in DataHub and directly clone the dsc10 repo: 
 •	Open a terminal by clicking “new” -> “terminal” on DataHub. <br>
 •	In case you are not familiar with GitHub, in your terminal, use the following command to clone the dsc10 private repo to your DataHub, where "github URL" should be replaced by the actual URL you copy from the dsc10 private repo. 
@@ -21,7 +21,7 @@ In one ward, to avoid version problems, it is better to work on DataHub. (Or at 
     git push
 •	Your changes will be on the dsc10 repo.
 
-### Choice 2:
+## Choice 2:
 #### Clone repo to your laptop first and then upload to DataHub: 
 •	In case you are not familiar with GitHub, open the terminal on your lapotp and use the following command 
 to clone the dsc10 private repo to your local machine, where "github URL" should be replaced by the actual URL you copy from the dsc10 private repo. 
@@ -40,10 +40,10 @@ Note that you cannot upload a whole folder to DataHub, so you need to create a f
     git commit -m “your message”
     git push
 •	Your changes will be on the dsc10 repo.<br>
+<br>
 
 
-
-# CONCEPTS
+#  ~ CONCEPTS ~
 ## Part1: ok files
 •	An ok file is a json-format config file for a Jupyter Notebook. A sample ok file looks like: <br>
  [![link config](./img/p2.png)](#config) 
@@ -56,14 +56,15 @@ Note that you cannot upload a whole folder to DataHub, so you need to create a f
 
 
 ### Part 2: the codes in jupyter notebook 
-In the notebook files, you can see these ok-related codes: 
-
-    ok = Notebook('hw01.ok')
-This line specifies the ok file this notebook uses. <br>
+In the notebook files, you can see these ok-related codes: <br>
 <br>
+This line specifies the ok file this notebook uses.
+   
+        ok = Notebook('hw01.ok')
+This line will run the file named “q1” under the directory you specify in the ok file. (In the “tests” section of the ok file). 
+   
+        _ = ok.grade('q1')
 
-    _ = ok.grade('q1')
-This line will run the file named “q1” under the directory you specify in the ok file. (In the “tests” section of the ok file).
 
 ### Part 3: tests files
 •	These files are the py files under the “tests” or “correctness_tests” directory, and they are the ones you need to create/modify.<br>
@@ -81,8 +82,9 @@ This line will run the file named “q1” under the directory you specify in th
         “”” 
 •	Check out the test files of previous quarters to learn some useful testing method (ie. isinstance() ).
 
+<br>
 
-# WORK FLOW
+# ~ WORK FLOW ~
 ## For formatting tests writers:
 •	Setup the work space. <br>
 •	Create / modify the test files. <br>
