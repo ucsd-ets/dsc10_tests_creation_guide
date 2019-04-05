@@ -30,7 +30,7 @@ to clone the dsc10 private repo to your local machine, where "github URL" should
 •	After cloning, you should see the directory of dsc10 created on your machine.<br>
 •	Then you can upload the files to DataHub. <br>
 •	To upload folders to DataHub, simply log in to DataHub (u should have access) and upload the files for the specific homework. It will look like, for example: 
-  [![link config](./img/p1.png)](#config) 
+  [![link config](./img/p1.png)](#config)  <br>
 Note that you cannot upload a whole folder to DataHub, so you need to create a folder in DataHub and upload the files inside. 
 
 •	When you done with creating/modifying tests, download the files you modified back to your laptop, in the dsc10 repo you cloned.<br>
@@ -46,7 +46,7 @@ Note that you cannot upload a whole folder to DataHub, so you need to create a f
 #  ~ CONCEPTS ~
 ## Part1: ok files
 •	An ok file is a json-format config file for a Jupyter Notebook. A sample ok file looks like: <br>
- [![link config](./img/p2.png)](#config) 
+ [![link config](./img/p2.png)](#config) <br>
 •	Explanation for the content of an ok files: <br>
 1.	“name” specifies the name of this ok file. <br>
 2.	“endpoint” specifies the location of the notebook. <br>
@@ -69,7 +69,7 @@ This line will run the file named “q1” under the directory you specify in th
 ### Part 3: tests files
 •	These files are the py files under the “tests” or “correctness_tests” directory, and they are the ones you need to create/modify.<br>
 •	A sample tests file:
- [![link config](./img/p2.png)](#config) 
+ [![link config](./img/p2.png)](#config)  <br>
 •	In the ‘code’ part, within the “”” pair are the tester codes you will need to write/modify. The codes after >>> are the python codes the will be run inside the jupyter notebook, when something like `_ = ok.grade(‘q1’)` is called. And the lines without >>> are the expected result of the previous line. For example, you can have something like:
 
         ‘code’: r”””
