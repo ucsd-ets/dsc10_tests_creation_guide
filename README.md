@@ -10,7 +10,7 @@ A tutorial for the DSC10 tutors about how to write formatting tests or correctne
 # ~ SETUP ~ 
 This part is to setup your work space. <br>
 Here, I don’t recommend you work on your local machine because the environment you have on your machine may be different from that of DataHub. Therefore, some testers you write may run on your local machine, but not on DataHub, which the students use. <br>
-In one ward, to avoid version problems, it is better to work on DataHub. (Or at least make sure it runs on DataHub) <br>
+In one word, to avoid version problems, it is better to work on DataHub. (Or at least make sure it runs on DataHub) <br>
 To setup work space on DataHub, you have 2 choice. <br>
 ## Choice 1 (easier):
 #### You can open a terminal in DataHub and directly clone the dsc10 repo: 
@@ -104,7 +104,7 @@ This line will run the file named “q1” under the directory you specify in th
 
         ok = Notebook('hw01_solution.ok')
 
-3.	Run the tests in the solution notebook to make sure they all pass.
+3.	Run the tests in the solution notebook to make sure they all pass.<br>
 •	Commit your change and push back to the dsc10 repo. <br>
 
 ## For correctness_tests writers:
@@ -117,7 +117,7 @@ This line will run the file named “q1” under the directory you specify in th
         ok = Notebook('hw01_solution.ok')
 
 3.	Run the tests in the solution notebook to make sure the correctness_tests you wrote were correct. <br>
-•   Commit your change and push back to the dsc10 repo. <br>
+•       Commit your change and push back to the dsc10 repo. <br>
 
  
 
