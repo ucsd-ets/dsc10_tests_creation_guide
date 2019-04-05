@@ -69,7 +69,7 @@ Note that you cannot upload a whole folder to DataHub, so you need to create a f
 5.	For “protocols”, you don’t need to care. <br>
 
 
-### Part 2: the codes in jupyter notebook 
+## Part 2: the codes in jupyter notebook 
 In the notebook files, you can see these ok-related codes: <br>
 <br>
 This line specifies the ok file this notebook uses.
@@ -80,7 +80,7 @@ This line will run the file named “q1” under the directory you specify in th
         _ = ok.grade('q1')
 
 
-### Part 3: tests files
+## Part 3: tests files
 •	These files are the py files under the “tests” or “correctness_tests” directory, and they are the ones you need to create/modify.<br>
 •	A sample tests file: <br>
 <br>
