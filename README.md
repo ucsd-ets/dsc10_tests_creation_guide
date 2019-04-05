@@ -111,6 +111,8 @@ This line will run the file named “q1” under the directory you specify in th
         ok = Notebook('hw01_solution.ok')
 
 3.	Run the tests in the solution notebook to make sure they all pass.<br>
+
+
 •	Finally, commit your change and push back to the dsc10 repo. <br>
 
 ## For correctness_tests writers:
@@ -123,6 +125,8 @@ This line will run the file named “q1” under the directory you specify in th
                 ok = Notebook('hw01_solution.ok')
 
   3.	Run the tests in the solution notebook to make sure the correctness_tests you wrote were correct. <br>
+
+
 •       Finally, commit your change and push back to the dsc10 repo. <br>
 
  
