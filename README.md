@@ -8,13 +8,12 @@ Here, I don’t recommend you work on your local machine because the environment
 In one ward, to avoid version problems, it is better to work on DataHub. (Or at least make sure it runs on DataHub) <br>
 #### To setup work space on DataHub, you have 2 choice. <br>
 ### Choice 1 (easier):
-#### You can open a terminal in DataHub and directly clone the dsc10 repo: <br>
-<br>
+#### You can open a terminal in DataHub and directly clone the dsc10 repo: 
 •	Open a terminal by clicking “new” -> “terminal” on DataHub. <br>
 •	In case you are not familiar with GitHub, in your terminal, use command 
 
     git clone <github URL> 
-to clone the dsc10 private repo to your DataHub, where <github URL> should be replaced by the actual URL you copy from the dsc10 private repo. <br>
+to clone the dsc10 private repo to your DataHub, where "github URL" should be replaced by the actual URL you copy from the dsc10 private repo. <br>
 •	After cloning, you should see the directory of dsc10 created on your datahub.<br>
 •	When you done with creating/modifying tests, in terminal, use commands
   
@@ -24,12 +23,11 @@ to clone the dsc10 private repo to your DataHub, where <github URL> should be re
 •	Your changes will be on the dsc10 repo.
 
 ### Choice 2:
-#### Clone repo to your laptop first and then upload to DataHub: <br>
-<br>
+#### Clone repo to your laptop first and then upload to DataHub: 
 •	In case you are not familiar with GitHub, open the terminal on your lapotp and use command 
 
     git clone <github URL> 
-to clone the dsc10 private repo to your local machine, where <github URL> should be replaced by the actual URL you copy from the dsc10 private repo. <br>
+to clone the dsc10 private repo to your local machine, where "github URL" should be replaced by the actual URL you copy from the dsc10 private repo. <br>
 •	After cloning, you should see the directory of dsc10 created on your machine.<br>
 •	Then you can upload the files to DataHub. <br>
 •	To upload folders to DataHub, simply log in to DataHub (u should have access) and upload the files for the specific homework. It will look like, for example: 
