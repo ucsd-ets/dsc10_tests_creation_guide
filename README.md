@@ -1,5 +1,10 @@
 # dsc10_tests_creation_guide
-A tutorial for the DSC10 tutors about how to write formatting tests or correctness tests.
+A tutorial for the DSC10 tutors about how to write formatting tests or correctness tests. <br>
+<br>
+<a href = 'https://github.com/ChunanGang/dsc10_tests_creation_guide#-setup-'> setup </a> <br>
+<a href = 'https://github.com/ChunanGang/dsc10_tests_creation_guide#-concepts-'> setup </a> <br>
+<a href = 'https://github.com/ChunanGang/dsc10_tests_creation_guide#-work-flow-'> setup </a> <br>
+
 ### ______________________________________________________________________________________
 
 # ~ SETUP ~ 
