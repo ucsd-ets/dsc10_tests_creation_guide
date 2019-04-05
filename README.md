@@ -69,7 +69,7 @@ This line will run the file named “q1” under the directory you specify in th
 ### Part 3: tests files
 •	These files are the py files under the “tests” or “correctness_tests” directory, and they are the ones you need to create/modify.<br>
 •	A sample tests file:
- [![link config](./img/p2.png)](#config)  <br>
+ [![link config](./img/p3.png)](#config)  <br>
 •	In the ‘code’ part, within the “”” pair are the tester codes you will need to write/modify. The codes after >>> are the python codes the will be run inside the jupyter notebook, when something like `_ = ok.grade(‘q1’)` is called. And the lines without >>> are the expected result of the previous line. For example, you can have something like:
 
         ‘code’: r”””
