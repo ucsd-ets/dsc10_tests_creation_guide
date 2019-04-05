@@ -3,9 +3,9 @@ This guide is for the tutors who have no experience of creating tests. It provid
 <br>
 This guide contains 3 parts:<br>
 <br>
-<a href = 'https://github.com/ChunanGang/dsc10_tests_creation_guide#-setup-'> SETUP </a> <br>
-<a href = 'https://github.com/ChunanGang/dsc10_tests_creation_guide#-concepts-'> CONCEPTS </a> <br>
-<a href = 'https://github.com/ChunanGang/dsc10_tests_creation_guide#-work-flow-'> WORKFLOW </a> <br>
+<a href = 'https://github.com/ucsd-ets/dsc10_tests_creation_guide#-setup-'> SETUP </a> <br>
+<a href = 'https://github.com/ucsd-ets/dsc10_tests_creation_guide#-concepts-'> CONCEPTS </a> <br>
+<a href = 'https://github.com/ucsd-ets/dsc10_tests_creation_guide#-work-flow-'> WORKFLOW </a> <br>
 <br>
 "SETUP" provides the ways I recommend to set up your work space; "CONCEPTS" provides some basic knowledge about how the testing works; "WORKFLOW" provides the workflow for writing tests. <br>
 If you are familiar with GitHub and understand how the ok files work, you can just jump to the "WORKFLOW" part. <br>
